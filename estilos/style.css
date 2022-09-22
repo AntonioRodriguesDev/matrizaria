@@ -5,7 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-image: linear-gradient(rgb(3, 45, 53)5%,rgba(3, 62, 77, 0.815) 15%, white);
+    background-image: linear-gradient(rgb(3, 45, 53)20px,rgba(3, 62, 77, 0.815) 15%, white);
     background-attachment: fixed;
 }
 h1,h3{
@@ -27,7 +27,7 @@ h3{
 }
 
 div{
-    height: 60vh;
+    height: max(60vh,400px);
     width: 95vw;
     margin: auto;
     position: relative;
