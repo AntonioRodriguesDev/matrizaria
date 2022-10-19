@@ -39,3 +39,20 @@ iframe{
     height: 100%;
     border: none;
 }
+
+@media print {
+    div{
+        height: 88vh;
+        width: 95vw;
+        margin: auto;
+        position: relative;
+        max-width: 800px;
+    }
+    h3{
+        display: none;
+    }
+    h1{
+        box-shadow: 2px 0px 20px inset black;
+    }
+    
+}
