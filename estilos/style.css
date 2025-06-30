@@ -34,12 +34,12 @@ div{
     height: max(60vh,550px);
     width: 98vw;
     margin: auto;
-    position: relative;
+    position: absolute;
     max-width: 800px;
 }
 iframe{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     border: none;
 }
